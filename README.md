@@ -1,1 +1,1 @@
-in this repo we will do some SQL AND DATABASE concepts
+this is repo for some SQL projects
