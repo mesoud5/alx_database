@@ -1,0 +1,1 @@
+SQL (Structured Query Language) is a programming language designed for managing and manipulating relational databases. A relational database is a type of database that organizes data into tables, which consist of rows and columns. Each table represents an entity, and relationships between tables are established using keys.
