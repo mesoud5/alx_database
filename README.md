@@ -1,4 +1,1 @@
-THIS REPOSITORY IS FOR 
-  -SQL
-  -DATABASES
-  AND SO ON
+in this repo we will do some SQL AND DATABASE concepts
