@@ -15,4 +15,4 @@ CREATE TABLE IF NOT EXISTS holbteron_2 (
     name VARCHAR(256)
 );
 -- we will see the tables in the database
-SHOW TABLE;
+SHOW TABLES;
