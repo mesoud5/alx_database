@@ -1,6 +1,7 @@
--- we will use hbtn_test_db_0 database
+-- Database name passed as an argument
 USE hbtn_test_db_0;
--- we will create a table
+
+-- Create the table if not exists
 CREATE TABLE IF NOT EXISTS first_table (
     id INT,
     name VARCHAR(256)
