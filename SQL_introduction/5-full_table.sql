@@ -13,4 +13,5 @@ CREATE TABLE IF NOT EXISTS first_table (
 -- USE hbtn_test_db_4;
 
 -- Showing all rows of TABLE: first_table in hbtn_test_db_0 database
-SELECT * FROM first_table;
+SHOW COLUMNS FROM first_table;
+
