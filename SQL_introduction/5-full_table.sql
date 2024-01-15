@@ -9,6 +9,10 @@ CREATE TABLE IF NOT EXISTS first_table (
     created_at DATE,
     PRIMARY KEY (id)
 );
-SELECT *
+-- Switch to the desired database
+USE hbtn_0c_0;
+
+-- Query the information_schema.columns to get full description of the table
+SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE, COLUMN_DEFAULT
 FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_SCHEMA = 'hbtn_test_db_5' AND TABLE_NAME = 'first_table';
+WHERE TABLE_NAME = 'first_table';
