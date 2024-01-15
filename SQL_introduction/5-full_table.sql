@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS first_table (
     created_at DATE,
     PRIMARY KEY (id)
 );
+
 -- Query the information_schema.columns to get full description of the table
 SELECT *
 FROM INFORMATION_SCHEMA.COLUMNS
