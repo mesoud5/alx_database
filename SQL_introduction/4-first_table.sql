@@ -1,4 +1,7 @@
 -- Database name passed as an argument
+-- droping and creating data base
+DROP DATABASE IF EXISTS hbtn_test_db_4;
+CREATE DATABASE IF NOT EXISTS hbtn_test_db_4;
 USE hbtn_test_db_4;
 
 -- Create the table if not exists
