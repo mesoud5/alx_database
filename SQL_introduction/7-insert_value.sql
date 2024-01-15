@@ -11,5 +11,5 @@ CREATE TABLE IF NOT EXISTS first_table (
     name VARCHAR(256)
 );
 -- Insert a record into first_table
-INSERT INTO first_table (id, name) VALUES (89, 'holberton school');
+INSERT INTO first_table (id, name) VALUES (89, 'Holberton school');
 SELECT id, name FROM first_table ORDER BY id;
