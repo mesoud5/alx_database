@@ -14,7 +14,7 @@ INSERT INTO second_table(id, name, score)VALUES(4, "George", 8);
 
 -- Display second_table
 -- SELECT id, name, score FROM second_table ORDER BY id ASC;
-UNION ALL
+
 -- Create records
 INSERT INTO second_table (id, name, score) VALUES (11, "A", 12);
 INSERT INTO second_table (id, name, score) VALUES (12, "B", 12);
