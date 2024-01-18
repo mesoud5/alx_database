@@ -28,7 +28,7 @@ INSERT INTO cities (id, state_id, name) VALUES (10, 2, "Page");
 INSERT INTO cities (state_id, name) VALUES (2, "Phoenix");
 INSERT INTO cities (state_id, name) VALUES (3, "Las Vegas");
 
-SELECT cities.id AS city_id, cities.name AS city_name, states.name AS state_name
+SELECT cities.id AS id, cities.name AS name, states.name AS name
 FROM cities
 JOIN states ON cities.state_id = states.id
 ORDER BY cities.id ASC;
